@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/ellipse_7"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="15sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:src="@drawable/vector" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:text="Xabar yuborish"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@drawable/rectangle_19">
+
+        <TextView
+            android:id="@+id/nameOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sanjar aka PDP"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:padding="15sp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/numberOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+998 97 007 96 20"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:padding="15sp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="15dp"
+        android:hint="Xabar matni"
+        android:gravity="top"
+        android:paddingTop="25sp"
+        android:paddingLeft="25dp"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@drawable/rectangle_18">
+
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/rectangle_1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Xabarni yuborish"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>
